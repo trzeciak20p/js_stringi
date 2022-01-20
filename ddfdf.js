@@ -11,6 +11,7 @@ opis = ["Zwraca długość stringa", "Zwraca znak na danej pozycji", "Zwraca kod
 //         zmien_opis(i)
 //     }
 //}
+//a
 
 document.getElementById("btn1").addEventListener("click", f_1)
 document.getElementById("btn2").addEventListener("click", f_2)
