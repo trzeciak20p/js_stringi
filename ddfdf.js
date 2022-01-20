@@ -6,12 +6,11 @@ opis = ["Zwraca długość stringa", "Zwraca znak na danej pozycji", "Zwraca kod
 // for (i = 1; i <= 12; i++) {
 //     id1 = "btn" + i
 //     f = "f"
-//     document.getElementById(id1).onclick = function () { aaaaaa
+//     document.getElementById(id1).onclick = function () {
 //         window[f + i]();
 //         zmien_opis(i)
 //     }
 //}
-//a
 
 document.getElementById("btn1").addEventListener("click", f_1)
 document.getElementById("btn2").addEventListener("click", f_2)
@@ -31,7 +30,7 @@ function argumenty(x) {
     return x;
 }
 function zmien_opis(i) {
-    document.getElementById("opiz").innerHTML = "<h2>Opis here</h2>" + opis[i - 1]
+    document.getElementById("opiz").innerHTML = "<h2>OPIS</h2>" + opis[i - 1]
 }
 function f_1() {
     p.innerText = inpt1.value.length - 1
