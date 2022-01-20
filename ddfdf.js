@@ -6,7 +6,7 @@ opis = ["Zwraca długość stringa", "Zwraca znak na danej pozycji", "Zwraca kod
 // for (i = 1; i <= 12; i++) {
 //     id1 = "btn" + i
 //     f = "f"
-//     document.getElementById(id1).onclick = function () {
+//     document.getElementById(id1).onclick = function () { aa
 //         window[f + i]();
 //         zmien_opis(i)
 //     }
